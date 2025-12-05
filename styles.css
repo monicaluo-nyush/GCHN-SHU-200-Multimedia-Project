@@ -1,0 +1,49 @@
+body {
+    background-color: #f7f3e8; /* light cream */
+    font-family: "Times New Roman", serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.main-photo, .ending-photo {
+    width: 100%;
+    display: block;
+    margin: 30px 0;
+}
+
+.paragraph {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.side-photo {
+    width: 48%;
+}
+
+#music-message {
+    text-align: center;
+    background: #eee5d1;
+    padding: 10px;
+    font-size: 16px;
+}
